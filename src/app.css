@@ -1,0 +1,23 @@
+
+.div {
+    animation-name: test;
+    -webkit-animation: test;
+}
+
+@keyframes test {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color : #ffffff;
+    }
+}
+
+@-webkit-keyframes test {
+    0% {
+        background-color : red;
+    }
+    100% {
+        background-color : #ffffff;
+    }
+}
